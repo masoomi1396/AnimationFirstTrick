@@ -1,5 +1,5 @@
 # AnimationFirstTrick
-*😁 This is my First trick with Animation and Translate *
+*😁 This is my First trick with Animation and Transform *
 - [Demo Project](https://github.com/masoomi1396/AnimationFirstTrick)
 - Developed by Amirmohammad Masoumi
 - Created - 2023-07-11
