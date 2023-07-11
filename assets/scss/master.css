@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  font-family: "Dancing Script", cursive;
+}
+
+.trick {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.trick > div {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 20px aqua;
+  position: absolute;
+  z-index: -1;
+}
+.trick > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50% -500px;
+  animation-name: Anime1;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-timing-function: steps(100000);
+  animation-iteration-count: infinite;
+}
+.trick > section:hover {
+  animation-play-state: paused !important;
+}
+.trick > section > h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  position: absolute;
+  text-shadow: 0px 0px 4px blue;
+}
+.trick > section > h1:nth-of-type(1) {
+  transform: translate3d(-50%, -50%, -1px);
+}
+.trick > section > h1:nth-of-type(2) {
+  transform: translate3d(-50%, -50%, -2px);
+}
+.trick > section > h1:nth-of-type(3) {
+  transform: translate3d(-50%, -50%, -3px);
+}
+.trick > section > h1:nth-of-type(4) {
+  transform: translate3d(-50%, -50%, -4px);
+}
+.trick > section > h1:nth-of-type(5) {
+  transform: translate3d(-50%, -50%, -5px);
+}
+.trick > section > h1:nth-of-type(6) {
+  transform: translate3d(-50%, -50%, -6px);
+}
+.trick > section > h1:nth-of-type(7) {
+  transform: translate3d(-50%, -50%, -7px);
+}
+.trick > section > h1:nth-of-type(8) {
+  transform: translate3d(-50%, -50%, -8px);
+}
+.trick > section > h1:nth-of-type(9) {
+  transform: translate3d(-50%, -50%, -9px);
+}
+.trick > section > h1:nth-of-type(10) {
+  transform: translate3d(-50%, -50%, -10px);
+}
+.trick > section > h1:nth-of-type(11) {
+  transform: translate3d(-50%, -50%, -11px);
+}
+.trick > section > h1:nth-of-type(12) {
+  transform: translate3d(-50%, -50%, -12px);
+}
+.trick > section > h1:nth-of-type(13) {
+  transform: translate3d(-50%, -50%, -13px);
+}
+.trick > section > h1:nth-of-type(14) {
+  transform: translate3d(-50%, -50%, -14px);
+}
+.trick > section > h1:nth-of-type(15) {
+  transform: translate3d(-50%, -50%, -15px);
+}
+.trick > section > h1:nth-of-type(16) {
+  transform: translate3d(-50%, -50%, -16px);
+}
+.trick > section > h1:nth-of-type(17) {
+  transform: translate3d(-50%, -50%, -17px);
+}
+.trick > section > h1:nth-of-type(18) {
+  transform: translate3d(-50%, -50%, -18px);
+}
+.trick > section > h1:nth-of-type(19) {
+  transform: translate3d(-50%, -50%, -19px);
+}
+.trick > section > h1:nth-of-type(20) {
+  transform: translate3d(-50%, -50%, -20px);
+}
+.trick > section > h1:nth-of-type(21) {
+  transform: translate3d(-50%, -50%, -21px);
+}
+.trick > section > h1:nth-of-type(22) {
+  transform: translate3d(-50%, -50%, -22px);
+}
+.trick > section > h1:nth-of-type(23) {
+  transform: translate3d(-50%, -50%, -23px);
+}
+.trick > section > h1:nth-of-type(24) {
+  transform: translate3d(-50%, -50%, -24px);
+}
+.trick > section > h1:nth-of-type(25) {
+  transform: translate3d(-50%, -50%, -25px);
+}
+.trick > section > h1:nth-of-type(26) {
+  transform: translate3d(-50%, -50%, -26px);
+}
+.trick > section > h1:nth-of-type(27) {
+  transform: translate3d(-50%, -50%, -27px);
+}
+.trick > section > h1:nth-of-type(28) {
+  transform: translate3d(-50%, -50%, -28px);
+}
+.trick > section > h1:nth-of-type(29) {
+  transform: translate3d(-50%, -50%, -29px);
+}
+.trick > section > h1:nth-of-type(30) {
+  transform: translate3d(-50%, -50%, -30px);
+}
+.trick > section > h1:nth-of-type(31) {
+  transform: translate3d(-50%, -50%, -31px);
+}
+.trick > section > h1:nth-of-type(32) {
+  transform: translate3d(-50%, -50%, -32px);
+}
+.trick > section > h1:nth-of-type(33) {
+  transform: translate3d(-50%, -50%, -33px);
+}
+.trick > section > h1:nth-of-type(34) {
+  transform: translate3d(-50%, -50%, -34px);
+}
+.trick > section > h1:nth-of-type(35) {
+  transform: translate3d(-50%, -50%, -35px);
+}
+.trick > section > h1:nth-of-type(36) {
+  transform: translate3d(-50%, -50%, -36px);
+}
+.trick > section > h1:nth-of-type(37) {
+  transform: translate3d(-50%, -50%, -37px);
+}
+.trick > section > h1:nth-of-type(38) {
+  transform: translate3d(-50%, -50%, -38px);
+}
+.trick > section > h1:nth-of-type(39) {
+  transform: translate3d(-50%, -50%, -39px);
+}
+.trick > section > h1:nth-of-type(40) {
+  transform: translate3d(-50%, -50%, -40px);
+}
+
+@keyframes Anime1 {
+  from {
+    transform: translateZ(500px);
+  }
+  to {
+    transform: translateZ(500px) rotateY(360deg);
+  }
+}/*# sourceMappingURL=master.css.map */
